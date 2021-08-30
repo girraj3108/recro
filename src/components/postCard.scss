@@ -1,0 +1,30 @@
+.post-card-container{
+    width: 60%;
+    margin: 50px auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 12px 12px rgba(0,0,0,0.23);
+    
+    .id-section-container{
+        display: flex;
+        justify-content: space-around;
+        padding: 5px 0;
+        font-weight: 600;
+        font-size: 1.5rem;
+    }
+
+    .card-title{
+        font-weight: 600;
+        font-size: 2rem;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-body{
+        font-size: 1.2rem;
+        padding: 5px;
+        margin: 5px;   
+    }
+}
